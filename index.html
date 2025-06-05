@@ -10,6 +10,18 @@
     <div class="container">
         <div class="quiz-header">
             <h1>Web Security Quiz</h1>
+            <div class="quiz-selector">
+                <div class="select-container">
+                    <select id="quiz-select" class="quiz-select">
+                        <option value="">Select a Quiz</option>
+                    </select>
+                    <div class="file-upload">
+                        <label for="quiz-upload" class="upload-btn">Upload New Quiz</label>
+                        <input type="file" id="quiz-upload" accept=".json" class="file-input">
+                    </div>
+                </div>
+                <div id="upload-status" class="upload-status"></div>
+            </div>
             <div class="progress-container">
                 <div class="progress-bar" id="progressBar"></div>
             </div>

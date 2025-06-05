@@ -1,0 +1,402 @@
+[
+    {
+        "question": "What does HTTP stand for?",
+        "options": [
+            "Hypertext Transmission Protocol",
+            "Hypertext Transfer Protocol",
+            "Hypertext Transfer Policy",
+            "Hypertext Transport Protocol"
+        ],
+        "correct_answer": "Hypertext Transfer Protocol"
+    },
+    {
+        "question": "What is the main difference between GET and POST requests?",
+        "options": [
+            "The way data is transmitted",
+            "Their security features",
+            "Their use of cookies",
+            "Their interaction with Javascript"
+        ],
+        "correct_answer": "The way data is transmitted"
+    },
+    {
+        "question": "Cookies are primarily used for:",
+        "options": [
+            "Storing server-side data",
+            "Maintaining session state on the client",
+            "Enhancing webpage aesthetics",
+            "Blocking advertisements"
+        ],
+        "correct_answer": "Maintaining session state on the client"
+    },
+    {
+        "question": "What is the purpose of the Same-Origin Policy?",
+        "options": [
+            "To allow cross-site communication",
+            "To block all HTTP requests",
+            "To prevent malicious cross-origin access",
+            "To enhance server speed"
+        ],
+        "correct_answer": "To prevent malicious cross-origin access"
+    },
+    {
+        "question": "Which technology enables full-duplex communication between browser and server?",
+        "options": [
+            "Ajax",
+            "WebSocket",
+            "HTTP",
+            "HTTPS"
+        ],
+        "correct_answer": "WebSocket"
+    },
+    {
+        "question": "What does CORS stand for?",
+        "options": [
+            "Cross-Origin Request Security",
+            "Cross-Origin Resource Sharing",
+            "Cross-Origin Request Sharing",
+            "Cross-Origin Routing System"
+        ],
+        "correct_answer": "Cross-Origin Resource Sharing"
+    },
+    {
+        "question": "Which of the following cookies are set to block cross-site requests?",
+        "options": [
+            "Session cookies",
+            "SameSite cookies",
+            "Persistent cookies",
+            "Third-party cookies"
+        ],
+        "correct_answer": "SameSite cookies"
+    },
+    {
+        "question": "What technique is used to embed Javascript securely into a webpage?",
+        "options": [
+            "Inline scripting",
+            "External scripting",
+            "Sandboxing",
+            "File handling"
+        ],
+        "correct_answer": "Sandboxing"
+    },
+    {
+        "question": "What is a fundamental cause of CSRF vulnerability?",
+        "options": [
+            "Lack of HTTPS encryption",
+            "Browser’s inability to distinguish request origins",
+            "Server misconfiguration",
+            "Invalid user sessions"
+        ],
+        "correct_answer": "Browser’s inability to distinguish request origins"
+    },
+    {
+        "question": "Which countermeasure against CSRF uses a browser feature?",
+        "options": [
+            "Secret tokens",
+            "Captchas",
+            "Referer headers",
+            "SameSite cookies"
+        ],
+        "correct_answer": "SameSite cookies"
+    },
+    {
+        "question": "What is the primary purpose of a secret token in CSRF defense?",
+        "options": [
+            "To encrypt user data",
+            "To verify request origin",
+            "To bypass browser security",
+            "To authenticate cookies"
+        ],
+        "correct_answer": "To verify request origin"
+    },
+    {
+        "question": "Which attributes ensures cookies are not attached to cross-site requests?",
+        "options": [
+            "Secure",
+            "HttpOnly",
+            "SameSite",
+            "Path"
+        ],
+        "correct_answer": "SameSite"
+    },
+    {
+        "question": "CRSF typically exploit which browser feature?",
+        "options": [
+            "Cross-origin data sharing",
+            "Automatic inclusion of cookies in requests",
+            "JavaScript’s sandboxing model",
+            "DOM manipulation"
+        ],
+        "correct_answer": "Automatic inclusion of cookies in requests"
+    },
+    {
+        "question": "Which HTTP methods is commonly exploited in CSRF attacks?",
+        "options": [
+            "PUT",
+            "DELETE",
+            "GET",
+            "OPTIONS"
+        ],
+        "correct_answer": "GET"
+    },
+    {
+        "question": "Why are POST-based CSRF attacks harder to detect than GET-based ones?",
+        "options": [
+            "They do not include cookies",
+            "They involve hidden data fields",
+            "They rely on third-party scripts",
+            "They cannot be forged"
+        ],
+        "correct_answer": "They involve hidden data fields"
+    },
+    {
+        "question": "What does the attacker rely on for a CSRF attack to succeed?",
+        "options": [
+            "The victim visiting a malicious site",
+            "The victim installing malware",
+            "The server’s use of encrypted cookies",
+            "The browser blocking HTTP requests"
+        ],
+        "correct_answer": "The victim visiting a malicious site"
+    },
+    {
+        "question": "What tool did the attacker use to capture HTTP headers in the Elgg case study?",
+        "options": [
+            "Burp Suite",
+            "LiveHTTPHeader",
+            "Wireshark",
+            "Postman"
+        ],
+        "correct_answer": "LiveHTTPHeader"
+    },
+    {
+        "question": "How are CSRF tokens usually embedded in a webpage?",
+        "options": [
+            "As visible text fields",
+            "In HTTP headers",
+            "In hidden form fields",
+            "In cookies"
+        ],
+        "correct_answer": "In hidden form fields"
+    },
+    {
+        "question": "Which CSRF defense technique requires modifying the browser?",
+        "options": [
+            "Secret tokens",
+            "SameSite cookies",
+            "Captchas",
+            "Referer headers"
+        ],
+        "correct_answer": "SameSite cookies"
+    },
+    {
+        "question": "What is the risk of using the Referer header for CSRF prevention?",
+        "options": [
+            "It is not included in all HTTP requests",
+            "It can be easily modified by attackers",
+            "It reveals browsing history",
+            "It conflicts with HTTPS"
+        ],
+        "correct_answer": "It reveals browsing history"
+    },
+    {
+        "question": "What does an attacker inject into a victim’s browser in an XSS attack?",
+        "options": [
+            "SQL commands",
+            "Malicious code",
+            "Unauthorized cookies",
+            "Encrypted files"
+        ],
+        "correct_answer": "Malicious code"
+    },
+    {
+        "question": "Which type of XSS attack involves the direct storage of malicious data on a target server?",
+        "options": [
+            "Reflected XSS",
+            "Persistent XSS",
+            "DOM-based XSS",
+            "Cross-Site Request Forgery (CSRF)"
+        ],
+        "correct_answer": "Persistent XSS"
+    },
+    {
+        "question": "What is a common outcome of an XSS attack?",
+        "options": [
+            "Loss database schema",
+            "Execution of server-side scripts",
+            "Theft of session cookies",
+            "Denial of Service (DoS)"
+        ],
+        "correct_answer": "Theft of session cookies"
+    },
+    {
+        "question": "What type of URL is typically used in a Reflected XSS attack?",
+        "options": [
+            "A URL containing SQL statements",
+            "A URL with injected JavaScript code",
+            "A URL with PHP code",
+            "A URL pointing to a malicious website"
+        ],
+        "correct_answer": "A URL with injected JavaScript code"
+    },
+    {
+        "question": "What is a key difference between Reflected and Persistent XSS?",
+        "options": [
+            "Reflected XSS requires user interaction; Persistent XSS does not",
+            "Reflected XSS stores the payload permanently",
+            "Persistent XSS is only used in local environments",
+            "Reflected XSS uses the POST method"
+        ],
+        "correct_answer": "Reflected XSS requires user interaction; Persistent XSS does not"
+    },
+    {
+        "question": "Which attacks uses the ‘About Me’ session of a profile to execute malicious code?",
+        "options": [
+            "SQL Injection",
+            "Reflected XSS",
+            "Persistent XSS",
+            "CSRF"
+        ],
+        "correct_answer": "Persistent XSS"
+    },
+    {
+        "question": "Which DOM API is used in XSS worms for self-propagation?",
+        "options": [
+            "document.getElementById()",
+            "window.alert()",
+            "window.location.href",
+            "console.log"
+        ],
+        "correct_answer": "document.getElementById()"
+    },
+    {
+        "question": "Which countermeasure encodes JavaScript code in user inputs to prevent execution?",
+        "options": [
+            "Filtering",
+            "Encoding",
+            "Using SQL sanitization",
+            "Disabling cookies"
+        ],
+        "correct_answer": "Encoding"
+    },
+    {
+        "question": "What can the PHP module `HTMLawed` do in preventing XSS?",
+        "options": [
+            "Encode JavaScript inputs",
+            "Sanitize HTML against XSS attacks",
+            "Block session cookies",
+            "Prevent HTTP requests"
+        ],
+        "correct_answer": "Sanitize HTML against XSS attacks"
+    },
+    {
+        "question": "What is the role of the `encodeURLComponent()` function in XSS attacks?",
+        "options": [
+            "Decoding malicious payloads",
+            "Encrypting JavaScript code",
+            "Encoding data for HTTP POST requests",
+            "Displaying alerts"
+        ],
+        "correct_answer": "Encoding data for HTTP POST requests"
+    },
+    {
+        "question": "What is the primary goal of Content Security Policy (CSP)?",
+        "options": [
+            "Enhance user interface",
+            "Separate data and code",
+            "Secure SQL queries",
+            "Encrypt user sessions"
+        ],
+        "correct_answer": "Separate data and code"
+    },
+    {
+        "question": "What is the default access level in Elgg for fields marked ‘2’?",
+        "options": [
+            "Publicly viewable",
+            "Restricted to administrators",
+            "Encrypted for security",
+            "Hidden from all users"
+        ],
+        "correct_answer": "Publicly viewable"
+    },
+    {
+        "question": "Which of the following is a common symptom of an XSS attack?",
+        "options": [
+            "Denied database access",
+            "Altered web page content",
+            "Server crash",
+            "Unauthorized file download"
+        ],
+        "correct_answer": "Altered web page content"
+    },
+    {
+        "question": "What does `nonce` value in CSP rules achieve?",
+        "options": [
+            "Identifies trusted scripts",
+            "Encodes URLs",
+            "Blocks unauthorized logins",
+            "Verifies user password"
+        ],
+        "correct_answer": "Identifies trusted scripts"
+    },
+    {
+        "question": "What field is exploited in the Elgg application for injecting malicious code?",
+        "options": [
+            "Profile picture",
+            "Brief Description",
+            "Email address",
+            "Username"
+        ],
+        "correct_answer": "Brief Description"
+    },
+    {
+        "question": "What is the purpose of `LiveHTTPHeader` in XSS attacks?",
+        "options": [
+            "To capture HTTP Requests",
+            "To encrypt malicious payloads",
+            "To sanitize JavaScript inputs",
+            "To prevent cross-origin requests"
+        ],
+        "correct_answer": "To capture HTTP Requests"
+    },
+    {
+        "question": "Which method prevents XSS by replaying `<script>` tags with `&lt;script&gt;`?",
+        "options": [
+            "Filtering",
+            "Encoding",
+            "HTML sanitization",
+            "Escaping"
+        ],
+        "correct_answer": "Encoding"
+    },
+    {
+        "question": "What makes self-propagating XSS worms effective?",
+        "options": [
+            "They target server databases",
+            "They infect both the attacker and victim profiles",
+            "They duplicate malicious code across user profiles.",
+            "They bypass browser cookies"
+        ],
+        "correct_answer": "They duplicate malicious code across user profiles."
+    },
+    {
+        "question": "Which approach ensures the separation of data and code to prevent XSS?",
+        "options": [
+            "Using nonces or hashes",
+            "Disabling session cookies",
+            "Encoding user inputs",
+            "Blocking JavaScript execution"
+        ],
+        "correct_answer": "Using nonces or hashes"
+    },
+    {
+        "question": "Which of the following tools is recommended for filtering JavaScript inputs?",
+        "options": [
+            "phpMyAdmin",
+            "jsoup",
+            "MySQL Workbench",
+            "Apache Spark"
+        ],
+        "correct_answer": "jsoup"
+    }
+]

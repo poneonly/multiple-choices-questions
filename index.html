@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Security Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1>Web Security Quiz</h1>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="score-container">
+                Score: <span id="score">0</span>/<span id="totalQuestions">0</span>
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+            </div>
+
+            <div class="controls">
+                <button id="next-btn" class="btn" disabled>Next Question</button>
+                <button id="restart-btn" class="btn" style="display: none;">Restart Quiz</button>
+            </div>
+        </div>
+
+        <div id="result-container" class="hidden">
+            <h2>Quiz Completed!</h2>
+            <p>Your final score: <span id="final-score">0</span>/<span id="total-questions">0</span></p>
+            <button id="restart-quiz-btn" class="btn">Take Quiz Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
